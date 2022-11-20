@@ -5,8 +5,8 @@ export default abstract class Archetype {
 
   constructor(
     name: string,
-    private _special = 0,
-    private _cost = 0,
+    private _special: number = 0,
+    private _cost: number = 0,
   ) {
     this._name = name;
   }

@@ -11,18 +11,6 @@ export default class Warrior extends Archetype {
     Warrior.incrementInstances();
   }
 
-  get name(): string {
-    return this.name;
-  }
-
-  get special(): number {
-    return this.special;
-  }
-
-  get cost(): number {
-    return this.cost;
-  }
-
   get energyType(): EnergyType {
     return this._energyType;
   }
